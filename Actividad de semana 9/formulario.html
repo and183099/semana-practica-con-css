@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: linear-gradient(40deg, #c9aff3,#39505f,#f5d8f2,#588f9c);
+            height: 150vh;
+        }
+
+        header {
+            font-size: 1rem;
+            font-family: cursive;
+        }
+    </style>
+    <title>Formulario de registro-Mi web</title>
+</head>
+<body>
+    <section class="from-register">
+        <h1 style="font-family: cursive; background-color: rgb(109, 108, 121); color: black;">FORMULARIO</h1>
+        <form id="form">
+            <div>
+                <label for="">Nombre</label><br>
+                <input class="controls" type="text" id="Nombre" placeholder=" Ingrese su Nombre"><br>
+                <label for="">Apellido</label><br>
+                <input class="controls" type="text" id="Apellido" placeholder="Ingrese su Apellido">
+            </div>
+            <div>
+                <label for="">Correo</label><br>
+                <input class="controls" type="text" id="Correo" placeholder="info@email.com">
+            </div>
+            <div>
+                <label for="">Edad</label><br>
+                <input class="controls" type="text" id="Edad" placeholder="Ingrese su Edad">
+            </div>
+            <div>
+                <label for="genero-Masculino">Masculino</label>
+                <input class="controls" type="radio" id="genero-Masculino" name="genero" value="Masculino"><br>
+                <label for="genero-Femenino">Femenino</label>
+                <input class="controls" type="radio" id="genero-Femenino" name="genero" value="Femenino"><br>
+                <label for="Otro">Otro</label>
+                <input class="controls" type="radio" id="otro" name="genero" value="otro">
+            </div>
+            <div>
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                <label for="newsletter">Deseo recibir informacion sobre novedades y ofertar</label>
+            </div>
+            <div>
+                <input type="checkbox" id="terms" name="terms" value="yes">
+                <label for="terms">Declaro haber le leido y aceptar las condiciones del programa</label>
+            </div>
+            <button class="botons">Registrar</button>
+        </form>
+    </section>
+</body>
+</html>

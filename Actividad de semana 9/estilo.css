@@ -1,0 +1,56 @@
+
+.from-register {
+    width: 500px;
+    background: #9c999e;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.from-register h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.controls{
+    width: 100%;
+    background: #c7ced4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.from-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.from-register a {
+    color:white;
+    text-decoration: none;
+}
+
+.from-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.from-register .botons {
+    width: 100%;
+    background: rgb(109, 108, 121);
+    border: none;
+    padding: 12px;
+    color:black;
+    margin: 16px 0;
+    font-size: 16px;
+}
